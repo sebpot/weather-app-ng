@@ -42,7 +42,6 @@ export class AppComponent implements OnInit {
           responseData.main.humidity,
           responseData.main.pressure
         );
-        console.log(responseData);
       }
     );
   }
